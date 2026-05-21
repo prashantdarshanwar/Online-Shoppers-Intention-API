@@ -67,6 +67,7 @@ jobs:
           MLFLOW_TRACKING_URI: ./mlruns  # mlflow tracking uri
           MODEL_PATH: ./ml/model.pkl  # model save path
         run: |
+          mysql -h 127.0.0.1 -u root -pPrashant123 shoppers_db < sql/seed.sql
           python etl/load.py
           python ml/train.py
 
