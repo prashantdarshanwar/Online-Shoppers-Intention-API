@@ -17,7 +17,7 @@ jobs:
       mysql:  # start mysql service for testing
         image: mysql:8.0  # mysql version
         env:
-          MYSQL_ROOT_PASSWORD: 12345  # root password
+          MYSQL_ROOT_PASSWORD: Prashant123 # root password
           MYSQL_DATABASE: shoppers_db  # database name
         ports:
           - 3306:3306  # expose mysql port
