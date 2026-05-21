@@ -19,7 +19,7 @@ def extract_data():
     engine = get_engine()  # get database connection
     df = pd.read_sql("SELECT * FROM online_shoppers", engine)  # fetch all rows from table
     print(f"Extracted {len(df)} rows")  # log how many rows fetched
-    return df  # return dataframe
+    return df   # return dataframe
 
 if __name__ == "__main__":
     df = extract_data()  # run extraction
