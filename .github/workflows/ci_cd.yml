@@ -57,7 +57,7 @@ jobs:
           DB_HOST: 127.0.0.1  # mysql host
           DB_PORT: 3306  # mysql port
           DB_USER: root  # mysql user
-          DB_PASSWORD: 12345  # mysql password
+          DB_PASSWORD: Prashant123  # mysql password
           DB_NAME: shoppers_db  # mysql database
           PG_HOST: 127.0.0.1  # postgresql host
           PG_PORT: 5432  # postgresql port
