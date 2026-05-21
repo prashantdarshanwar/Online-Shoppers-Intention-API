@@ -67,7 +67,6 @@ jobs:
           MLFLOW_TRACKING_URI: ./mlruns  # mlflow tracking uri
           MODEL_PATH: ./ml/model.pkl  # model save path
         run: |
-          python data/reload_data.py
           python etl/load.py
           python ml/train.py
 
